@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{27C15ED2-6007-4403-9586-473E2233749A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concrete", "Concrete", "{BC8E63FC-AFB4-4EF4-ADE9-4B0F09B795D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6D944B05-38CA-4870-B3E4-550238157682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Miscellaneous", "Miscellaneous", "{7A38093C-1BF3-4189-8CB0-4E714EC45516}"
+	ProjectSection(SolutionItems) = preProject
+		Miscellaneous\MerchantFile.txt = Miscellaneous\MerchantFile.txt
+		Miscellaneous\Readme.txt = Miscellaneous\Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant.Abstractions", "Abstractions\Merchant.Abstractions.csproj", "{45F0D216-2B6B-4D08-AAF5-0CAFED8FF11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant.Application", "Application\Merchant.Application.csproj", "{663493D9-3ADF-4C90-82E8-14F1F69A31CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant.Concrete", "Concrete\Merchant.Concrete.csproj", "{99679644-FE26-4099-A74D-DE90D8AD568B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F0D216-2B6B-4D08-AAF5-0CAFED8FF11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F0D216-2B6B-4D08-AAF5-0CAFED8FF11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F0D216-2B6B-4D08-AAF5-0CAFED8FF11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F0D216-2B6B-4D08-AAF5-0CAFED8FF11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663493D9-3ADF-4C90-82E8-14F1F69A31CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663493D9-3ADF-4C90-82E8-14F1F69A31CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663493D9-3ADF-4C90-82E8-14F1F69A31CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663493D9-3ADF-4C90-82E8-14F1F69A31CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99679644-FE26-4099-A74D-DE90D8AD568B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99679644-FE26-4099-A74D-DE90D8AD568B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99679644-FE26-4099-A74D-DE90D8AD568B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99679644-FE26-4099-A74D-DE90D8AD568B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45F0D216-2B6B-4D08-AAF5-0CAFED8FF11E} = {27C15ED2-6007-4403-9586-473E2233749A}
+		{663493D9-3ADF-4C90-82E8-14F1F69A31CF} = {6D944B05-38CA-4870-B3E4-550238157682}
+		{99679644-FE26-4099-A74D-DE90D8AD568B} = {BC8E63FC-AFB4-4EF4-ADE9-4B0F09B795D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {204AB24D-AD4A-49CC-9F4C-DC667C98DA53}
+	EndGlobalSection
+EndGlobal
